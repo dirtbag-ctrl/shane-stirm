@@ -1,4 +1,7 @@
+/* eslint-disable */
 import React, { Fragment, useEffect } from "react";
+
+// imgs
 import img1 from "../assets/img8.jpg";
 import img2 from "../assets/img15.jpg";
 import img3 from "../assets/img10.jpg";

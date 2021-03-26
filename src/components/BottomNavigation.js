@@ -1,11 +1,11 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import BottomNavigation from "@material-ui/core/BottomNavigation";
-import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import RestoreIcon from "@material-ui/icons/Restore";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import { Card, Box } from "@material-ui/core";
+import {
+  Card,
+  Box,
+  BottomNavigation,
+  BottomNavigationAction,
+  makeStyles,
+} from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     left: "50%",
     transform: "translate(-50%, -50%)",
     borderRadius: "35px",
-    backgroundColor: '#d4d1cb'
+    backgroundColor: "#d4d1cb",
   },
 });
 
@@ -38,8 +38,7 @@ export default function SimpleBottomNavigation() {
     <Card className={classes.card} elevation={10}>
       <Box maxWidth={400}>
         <BottomNavigation
-        style={{    backgroundColor: '#d4d1cb'
-    }}
+          style={{ backgroundColor: "#d4d1cb" }}
           value={value}
           onChange={(event, newValue) => {
             setValue(newValue);
