@@ -6,137 +6,137 @@ body {
   background-color: #d4d1cb;
 }
 
-.text {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 600px;
-  height: 300px;
-  position: absolute;
-  margin: -150px 0 0 -300px;
-  top: 50%;
-  left: 50%;
-  p {
-    font-size: 40px;
-    padding: 0;
-    @media #{$xs-layout} {
-      font-size: 24px;
+// .text {
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+//   width: 600px;
+//   height: 300px;
+//   position: absolute;
+//   margin: -150px 0 0 -300px;
+//   top: 50%;
+//   left: 50%;
+//   p {
+//     font-size: 40px;
+//     padding: 0;
+//     @media #{$xs-layout} {
+//       font-size: 24px;
 
-    }
-  }
-  @media #{$xs-layout} {
-    width: 300px;
-    margin: -5px -100px;
-  }
-}
-.img {
-  position: absolute;
-  height: 25%;
-  width: auto;
-  z-index: 1;
-}
-.img1 {
-  top: 5%;
-  left: 5%;
-  animation: circle1 30s linear infinite;
-}
-.img2 {
-  top: 20%;
-  left: 75%;
-  animation: circle2 30s linear infinite;
-}
-.img3 {
-  top: -5%;
-  left: 50%;
-  animation: circle3 40s linear infinite;
-}
-.img4 {
-  top: 80%;
-  left: 2%;
-  animation: circle4 50s linear infinite;
-}
-.img5 {
-  top: 70%;
-  left: 90%;
-  animation: circle5 70s linear infinite;
-}
-.img6 {
-  bottom: 0%;
-  left: 50%;
-  animation: circle6 30s linear infinite;
-}
-.img7 {
-  top: 70%;
-  left: 20%;
-  animation: circle7 50s linear infinite;
-}
-.img8 {
-  top: 20%;
-  left: 20%;
-  animation: circle8 30s linear infinite;
-}
+//     }
+//   }
+//   @media #{$xs-layout} {
+//     width: 300px;
+//     margin: -5px -100px;
+//   }
+// }
+// .img {
+//   position: absolute;
+//   height: 25%;
+//   width: auto;
+//   z-index: 1;
+// }
+// .img1 {
+//   top: 5%;
+//   left: 5%;
+//   animation: circle1 30s linear infinite;
+// }
+// .img2 {
+//   top: 20%;
+//   left: 75%;
+//   animation: circle2 30s linear infinite;
+// }
+// .img3 {
+//   top: -5%;
+//   left: 50%;
+//   animation: circle3 40s linear infinite;
+// }
+// .img4 {
+//   top: 80%;
+//   left: 2%;
+//   animation: circle4 50s linear infinite;
+// }
+// .img5 {
+//   top: 70%;
+//   left: 90%;
+//   animation: circle5 70s linear infinite;
+// }
+// .img6 {
+//   bottom: 0%;
+//   left: 50%;
+//   animation: circle6 30s linear infinite;
+// }
+// .img7 {
+//   top: 70%;
+//   left: 20%;
+//   animation: circle7 50s linear infinite;
+// }
+// .img8 {
+//   top: 20%;
+//   left: 20%;
+//   animation: circle8 30s linear infinite;
+// }
 
-@keyframes circle1 {
-  from {
-    transform: rotate(0deg) translate(-30px) rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg) translate(-30px) rotate(-360deg);
-  }
-}
-@keyframes circle2 {
-  from {
-    transform: rotate(360deg) translate(-30px) rotate(-360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-30px) rotate(0deg);
-  }
-}
-@keyframes circle3 {
-  from {
-    transform: rotate(360deg) translate(-30px) rotate(-360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-30px) rotate(0deg);
-  }
-}
-@keyframes circle4 {
-  from {
-    transform: rotate(360deg) translate(-60px) rotate(-360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-60px) rotate(0deg);
-  }
-}
-@keyframes circle5 {
-  from {
-    transform: rotate(360deg) translate(-80px) rotate(-360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-80px) rotate(0deg);
-  }
-}
-@keyframes circle6 {
-  from {
-    transform: rotate(-360deg) translate(-30px) rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-30px) rotate(0deg);
-  }
-}
-@keyframes circle7 {
-  from {
-    transform: rotate(360deg) translate(-50px) rotate(-360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-50px) rotate(0deg);
-  }
-}
-@keyframes circle8 {
-  from {
-    transform: rotate(-360deg) translate(-70px) rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg) translate(-70px) rotate(0deg);
-  }
-}
+// @keyframes circle1 {
+//   from {
+//     transform: rotate(0deg) translate(-30px) rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg) translate(-30px) rotate(-360deg);
+//   }
+// }
+// @keyframes circle2 {
+//   from {
+//     transform: rotate(360deg) translate(-30px) rotate(-360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-30px) rotate(0deg);
+//   }
+// }
+// @keyframes circle3 {
+//   from {
+//     transform: rotate(360deg) translate(-30px) rotate(-360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-30px) rotate(0deg);
+//   }
+// }
+// @keyframes circle4 {
+//   from {
+//     transform: rotate(360deg) translate(-60px) rotate(-360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-60px) rotate(0deg);
+//   }
+// }
+// @keyframes circle5 {
+//   from {
+//     transform: rotate(360deg) translate(-80px) rotate(-360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-80px) rotate(0deg);
+//   }
+// }
+// @keyframes circle6 {
+//   from {
+//     transform: rotate(-360deg) translate(-30px) rotate(360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-30px) rotate(0deg);
+//   }
+// }
+// @keyframes circle7 {
+//   from {
+//     transform: rotate(360deg) translate(-50px) rotate(-360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-50px) rotate(0deg);
+//   }
+// }
+// @keyframes circle8 {
+//   from {
+//     transform: rotate(-360deg) translate(-70px) rotate(360deg);
+//   }
+//   to {
+//     transform: rotate(0deg) translate(-70px) rotate(0deg);
+//   }
+// }
